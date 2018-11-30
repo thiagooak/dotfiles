@@ -1,0 +1,61 @@
+[core]
+        editor = vim
+        autocrlf = false
+        fscache = true
+
+[color]
+        ui = true
+
+[color "branch"]
+        current = yellow reverse
+        local = yellow
+        remote = green
+
+[color "diff"]
+        meta = yellow bold
+        frag = magenta bold
+        old = red bold
+        new = green bold
+
+[color "status"]
+        added = yellow
+        changed = green
+        untracked = cyan
+
+[alias]
+        alias = "!git config -l | grep alias | cut -c 7-"
+
+        co = checkout
+        cm = checkout master
+
+        fu = fetch upstream
+
+        s = status -sb
+
+        unstage = reset HEAD --
+
+        lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %Cblue<%an>%Creset' --abbrev-commit --date=relative --all
+        ll = log --oneline --decorate
+        ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
+        last = log -1 --stat
+
+        d = diff
+        dc = diff --cached
+        dd = diff HEAD~1 HEAD
+        ds = diff --staged
+
+        ms = merge --squash --stat
+
+        rum = rebase upstream/master
+
+        g = grep -Ii --break --heading --line-number
+
+[user]
+        name = Thiago Carvalho
+        email = thiago.oak@gmail.com
+
+[log]
+        decorate = short
+
+[grep]
+        lineNumber = true

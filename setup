@@ -1,0 +1,10 @@
+pushd `dirname $0` > /dev/null
+SCRIPTPATH=`pwd`
+popd > /dev/null
+
+pushd ~ > /dev/null
+
+ln -sf "$SCRIPTPATH/config/gitconfig" .gitconfig
+ln -sf "$SCRIPTPATH/config/vimrc" .vimrc
+
+popd > /dev/null
