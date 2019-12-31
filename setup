@@ -6,8 +6,6 @@ pushd ~ > /dev/null
 
 ln -sf "$SCRIPTPATH/config/gitconfig" .gitconfig
 ln -sf "$SCRIPTPATH/config/gitignore" .gitignore
-git config --global core.excludesfile '~/.gitignore'
-
 ln -sf "$SCRIPTPATH/config/vimrc" .vimrc
 
 popd > /dev/null
