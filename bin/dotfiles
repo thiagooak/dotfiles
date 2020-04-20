@@ -1,0 +1,9 @@
+#!/bin/bash
+cd ~/src/dotfiles
+
+git fetch --verbose
+
+git status --short
+
+# @TODO add check-for-update option
+# @TODO add self-update option
