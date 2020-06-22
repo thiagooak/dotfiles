@@ -1,15 +1,14 @@
 {
-    "editor.minimap.enabled": false,
-    "files.trimTrailingWhitespace": true,
-    "editor.renderWhitespace": "all",
-    "html.autoClosingTags": false,
-    "editor.fontSize": 14,
-    "editor.rulers": [
-        120
-    ],
-    "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.formatOnSave": true,
-    "explorer.openEditors.visible": 0
+  "editor.minimap.enabled": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.renderWhitespace": "all",
+  "html.autoClosingTags": false,
+  "editor.fontSize": 14,
+  "editor.rulers": [120],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true,
+  "explorer.openEditors.visible": 0,
+  "php.validate.executablePath": "/usr/bin/php"
 }
