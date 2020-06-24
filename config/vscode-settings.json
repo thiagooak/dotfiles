@@ -10,5 +10,7 @@
   },
   "editor.formatOnSave": true,
   "explorer.openEditors.visible": 0,
-  "php.validate.executablePath": "/usr/bin/php"
+  "php.validate.executablePath": "/usr/bin/php",
+  "window.zoomLevel": 0,
+  "prettier.printWidth": 120
 }
