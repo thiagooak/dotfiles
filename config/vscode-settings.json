@@ -12,5 +12,6 @@
   "explorer.openEditors.visible": 0,
   "php.validate.executablePath": "/usr/bin/php",
   "window.zoomLevel": 0,
-  "prettier.printWidth": 120
+  "prettier.printWidth": 120,
+  "problems.decorations.enabled": false
 }
