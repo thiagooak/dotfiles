@@ -13,5 +13,9 @@
   "php.validate.executablePath": "/usr/bin/php",
   "window.zoomLevel": 0,
   "prettier.printWidth": 120,
-  "problems.decorations.enabled": false
+  "problems.decorations.enabled": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.multiCursorModifier": "ctrlCmd"
 }
