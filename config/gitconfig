@@ -53,7 +53,7 @@
 
 [user]
         name = Thiago Carvalho
-        email = thiago.carvalho@hey.com
+	email = thiago@garimpo.io
 
 [log]
         decorate = short
