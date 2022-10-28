@@ -56,6 +56,8 @@
 
 [user]
         name = Thiago Carvalho
+        email = thiago.carvalho2@nubank.com.br
+	signingkey = BBD112DD90C9983B
 [log]
         decorate = short
 [grep]
