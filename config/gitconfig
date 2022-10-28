@@ -6,6 +6,9 @@
 
 [color]
         ui = true
+	diff = auto
+	status = auto
+	branch = auto
 
 [color "branch"]
         current = yellow reverse
@@ -53,11 +56,8 @@
 
 [user]
         name = Thiago Carvalho
-	email = thiago@garimpo.io
-
 [log]
         decorate = short
-
 [grep]
         lineNumber = true
 [push]
@@ -66,3 +66,14 @@
 	rebase = false
 [init]
 	defaultBranch = main
+	autoSetupRemote = true
+	default = current
+[filter "lfs"]
+	smudge = git-lfs smudge --skip %f
+	process = git-lfs filter-process --skip
+	clean = git-lfs clean -- %f
+	required = True
+[url "git@github.com:"]
+	insteadOf = https://github.com/
+[includeIf "gitdir:/Users/thiago.carvalho2/dev/nu/"]
+	path = /Users/thiago.carvalho2/.nugitconfig

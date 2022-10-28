@@ -1,6 +1,6 @@
-.DS_Store
-.vscode
-.idea
-.clj-kondo
-.lsp
 .calva
+.clj-kondo
+.DS_Store
+.idea
+.lsp
+.vscode
